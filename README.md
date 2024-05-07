@@ -18,8 +18,9 @@ The project aims to build a single source of true data storage for large healthc
 
 The architecture of this project is presented as follows:
 
-<!--
-![architecture_2](https://github.com/minhky2185/healthcare_data_pipeline/blob/main/images/architecture_2.png) -->
+![architecture_2](https://github.com/mvschiranjeevi/healthcare-data-analysis/blob/main/images/arch1.jpg)
+
+![architecture_3](https://github.com/mvschiranjeevi/healthcare-data-analysis/blob/main/images/arch2.jpg)
 
 - Data is sourced from PostgreSQL and ingested into `raw zone` of Data Lake hosted on S3.
 - Raw data is cleansed and standardized before moving to `cleansed zone`.
@@ -42,11 +43,11 @@ Some dashboards create from the data from data read storage
 
 - Drug report
 
-<!-- ![drug_report](https://github.com/minhky2185/healthcare_data_pipeline/blob/main/images/drug_report.png) -->
+![drug_report](https://github.com/mvschiranjeevi/healthcare-data-analysis/blob/main/images/report.png)
 
-- Prescriber report
+<!-- - Prescriber report
 
-<!-- ![prescriber_report](https://github.com/minhky2185/healthcare_data_pipeline/blob/main/images/prescriber_report.png) -->
+![prescriber_report](https://github.com/minhky2185/healthcare_data_pipeline/blob/main/images/prescriber_report.png) -->
 
 ## **Achievement in learning**
 
