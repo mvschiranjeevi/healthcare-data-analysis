@@ -33,8 +33,8 @@ The architecture of this project is presented as follows:
 - Source of raw data is from [CMS](https://data.cms.gov/provider-summary-by-type-of-service). Data used is Medicare Part D.
 - Data source in PostgreSQL has 4 tables, total size around 10 GB:
   - Prescriber_drug: ~ 25M rows
-  - Prescriber: ~ 1.1M rows
-  - Drug: ~115K rows
+  - Prescriber: ~ 1.2M rows
+  - Drug: ~120K rows
   - State: ~30K rows
 
 ## **Visualization**
