@@ -20,7 +20,7 @@ The architecture of this project is presented as follows:
 
 ![architecture_2](https://github.com/mvschiranjeevi/healthcare-data-analysis/blob/main/images/arch1.jpg)
 
-![architecture_3](https://github.com/mvschiranjeevi/healthcare-data-analysis/blob/main/images/arch2.jpg)
+![architecture_3](https://github.com/mvschiranjeevi/healthcare-data-analysis/blob/main/images/arch2.png)
 
 - Data is sourced from PostgreSQL and ingested into `raw zone` of Data Lake hosted on S3.
 - Raw data is cleansed and standardized before moving to `cleansed zone`.
